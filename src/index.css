@@ -1,4 +1,4 @@
-/* === Base Reset === */
+
 body {
   margin: 0;
   font-family: -apple-system, 'Segoe UI', 'Roboto', sans-serif;
@@ -9,7 +9,6 @@ body {
   to { opacity: 1; }
 }
 
-/* === Layout Wrappers === */
 .body-wrapper {
   min-height: 100vh;
   padding: 20px;
@@ -19,7 +18,7 @@ body {
   border-radius: 12px;
 }
 
-/* === Theme Backgrounds === */
+
 .light-mode {
   background: linear-gradient(135deg, #e0f7fa, #fff);
   color: #212529;
@@ -30,7 +29,6 @@ body {
 }
 
 
-/* === Form Filter Box === */
 .filter-box {
   padding: 20px;
   border-radius: 12px;
@@ -49,7 +47,6 @@ body {
 }
 
 
-/* === Tabs === */
 .tab-bar .btn {
   border-radius: 20px;
   font-weight: 500;
@@ -78,7 +75,6 @@ body {
 }
 
 
-/* === Table === */
 .table-hover tbody tr:hover {
   background-color: #f0f8ff;
   cursor: pointer;
@@ -99,7 +95,7 @@ body {
   transition: transform 0.2s ease;
 }
 
-/* === Status Row === */
+
 .status-row, .status-cell {
   display: flex;
   justify-content: center;
@@ -110,7 +106,7 @@ body {
   border-radius: 8px;
 }
 
-/* === Status Badges === */
+
 .status-badge {
   font-size: 0.85rem;
   min-width: 120px;

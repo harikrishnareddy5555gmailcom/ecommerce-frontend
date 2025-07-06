@@ -10,7 +10,7 @@ function App() {
   const [status, setStatus] = useState('ALL');
   const [page, setPage] = useState(0);
   const [totalPages, setTotalPages] = useState(1);
-  const [darkMode, setDarkMode] = useState(false); // 👈 toggle theme
+  const [darkMode, setDarkMode] = useState(false); 
 
   useEffect(() => {
     fetchOrders();
@@ -23,7 +23,7 @@ function App() {
   };
 
   const handleFilter = async (filterData) => {
-    setPage(0); // ✅ reset page
+    setPage(0); 
 
     const isClear = Object.values(filterData).every(val => val === null || val === '');
     if (isClear) {
